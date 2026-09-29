@@ -1,0 +1,19 @@
+.app-container {
+  height: 100%;
+  padding: 10px;
+  gap: 10px;
+  display: grid;
+  grid-template-areas:
+    "messages"
+    "input";
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+.welcoming-message {
+  margin-top: 70px;
+  text-align: center;
+  filter: opacity(0.7);
+}
+

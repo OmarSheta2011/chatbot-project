@@ -1,0 +1,6 @@
+.chat-messages-container {
+  padding-bottom: 10px;
+  overflow-y: scroll;
+  width: 600px;
+  grid-area: "messages";
+}

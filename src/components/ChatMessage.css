@@ -1,0 +1,31 @@
+.message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.user-message {
+  justify-content: end;
+}
+.robot-message {
+  justify-content: start;
+}
+.message  div{
+  padding: 15px 20px;
+  background-color: lightgray;
+  border-radius: 12px;
+  font-size: 18px;
+  max-width: 300px;
+}
+.message-time{
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+  margin-top: 10px;
+
+}
+.profileimg {
+  border-radius: 50%;
+  height: 55px;
+  object-fit: cover;
+}
